@@ -1,0 +1,19 @@
+.cart-wrapper{
+    height: 250px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.img-wrapper,img{
+    height: 150px;
+    width: 150px;
+}
+.text-wrapper {
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.btn-wrapper{
+    text-align: center;
+}
