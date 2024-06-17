@@ -3,6 +3,9 @@ import React from 'react'
 function Home() {
   return (
     <div>
+      <div className='add-to-cart'> 
+          <img src='cart.png' alt=''/>
+        </div>
       <h1>Home Component</h1>
       <div className='cart-wrapper'>
 

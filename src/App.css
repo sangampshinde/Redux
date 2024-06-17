@@ -4,7 +4,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.img-wrapper,img{
+.img-wrapper img{
     height: 150px;
     width: 150px;
 }
@@ -16,4 +16,14 @@
 
 .btn-wrapper{
     text-align: center;
+}
+
+.add-to-cart img{
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    right: 1%;
+    top:1%;
+    margin-bottom: 80px;
+
 }
