@@ -1,9 +1,9 @@
-// design for add to cart
 
 import React from 'react';
-
 import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import Cart from './Pages/Cart';
 
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
     <div>
      <BrowserRouter>
      <Routes>
-      <Route></Route>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/Cart' element={<Cart/>}/>
      </Routes>
      </BrowserRouter>
       
